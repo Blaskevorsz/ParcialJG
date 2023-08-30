@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #93576D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 9px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.iniciopng {
+    width: 500px;
+    height: 500px;
+    padding-left: 40%;
+    padding-top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoncomenzar {
+    border-radius: 50px;
+    background-color: #93576D;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-left: 1050px;
+    margin-right: 1010px;
+    margin-top: 60px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.botoncomenzar a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.logoesquina {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.textos {
+    margin-left: 55px;
+    margin-top: 60px;
+    margin-right: 1000px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.textos h1 {
+    color: #838383;
+
+}
+
+.textos h2 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.textos p {
+    font-size: 20px;
+}
+
+.textos h4 {
+    font-size: 35px;
+    margin-left: 10px;
+    border: 5px solid;
+}
+
+.textos .testxdx {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.testxdx p:first-child {
+    margin-bottom: -20px;
+    font-size: 32px;
+}
+
+.textxd {
+    max-width: 50%;
+}
+
+.jejeimagen {
+
+    margin-left: 250px;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid #ffffff;
+
+}
+
+.comienzaahora a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.comienzaahora {
+    border-radius: 50px;
+    background-color: #93576D;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-left: 250px;
+    margin-right: 400px;
+    margin-top: 60px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.card-group {
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    align-items: center;
+
+}
+
+.card1 {
+    float: left;
+    background-color: #E9E9E9;
+    margin-right: 150px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.card2 {
+    float: left;
+    background-color: #E9E9E9;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+}
+
+.formxd {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.card-body .h5 {
+    margin-left: 5px;
+}
